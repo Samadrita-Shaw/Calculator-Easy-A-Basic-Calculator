@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #a8ebc3; */
+    background-color: rgb(6, 13, 45);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Benne', serif;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 0px auto;
+    align-items: center;
+    height: auto;
+    width: fit-content;
+    background-color: #d8f1dd;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgb(195, 246, 223),
+                      5px 5px 15px rgba(13, 146, 101, 0.958); 
+}
+.row{
+    padding: 3px;
+    margin: 10px;
+    background-color: #d8f1dd;
+}
+.input{
+    margin: 3px 0px;
+    width: 280px;
+    height: 60px;
+    background-color: #a8ebc3;
+    box-shadow: inset -5px -5px 12px rgb(195, 246, 223),
+                inset 5px 5px 8px rgba(19, 93, 68, 0.958);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: end;
+    font-size: 60px;
+    color: rgb(3, 51, 11);
+    font-family: 'Chakra Petch', sans-serif;
+    margin: auto;
+}
+
+button{
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 40%;
+    padding: 3px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #d8f1dd;
+    box-shadow: inset -5px -5px 12px rgb(195, 246, 223),
+            5px 5px 12px rgba(28, 144, 82, 0.958);
+    font-family: 'Benne', serif;
+}
+
+button:hover{
+    background-color: #b4f8c1;
+    box-shadow: inset -5px -5px 12px rgb(38, 135, 72),
+            5px 5px 12px rgba(25, 130, 24, 0.958);
+
+}
+
+.equalsAndClear{
+    background-color: rgb(50, 232, 108);
+    box-shadow: inset -5px -5px 12px rgb(44, 183, 37),
+            5px 5px 12px rgba(14, 130, 10, 0.958);
+    /* color: white; */
+    font-size: 22px;
+}
+
+.equalsAndClear:hover{
+    color: white;
+    background-color: rgb(46, 207, 73);
+    box-shadow: inset -5px -5px 12px rgb(49, 157, 27),
+            5px 5px 10px rgba(19, 150, 7, 0.958);
+}
+
+.special{
+    background-color: rgb(131, 244, 166);
+    box-shadow: inset -5px -5px 12px rgb(115, 223, 109),
+            5px 5px 12px rgba(39, 155, 35, 0.871);
+
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
