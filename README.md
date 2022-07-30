@@ -9,7 +9,7 @@ It can perform basic calculations like-
  * Subtraction
  * Multiplication
  * Division
- * Percentage
+ * Remainder
 
 And then you may also clear the screen with AC (All Clear) and/or delete any digit or operator with DEL button. 
 
