@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate Easy - A Basic Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Benne&family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./calculator-favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <h1>Calculate Easy</h1>
+    <div class="container">
+      <div class="row">
+        <input class="input" type="text" placeholder="0" id="output" />
+      </div>
+      <div class="row">
+        <button class="equalsAndClear" onclick="clearAll()">AC</button>
+        <button class="special" onclick="del()">DEL</button>
+        <button class="special" onclick="display('%')">%</button>
+        <button class="special" onclick="display('/')">/</button>
+      </div>
+      <div class="row">
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button class="special" onclick="display('*')">*</button>
+      </div>
+      <div class="row">
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button class="special" onclick="display('-')">-</button>
+      </div>
+      <div class="row">
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button class="special" onclick="display('+')">+</button>
+      </div>
+      <div class="row">
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="display('00')">00</button>
+        <button class="equalsAndClear" onclick="cal()">=</button>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./calculate.js"></script>
+  </body>
+
+  <!-- footer -->
+  <footer>&copy; Samadrita-Shaw</footer>
+</html>
